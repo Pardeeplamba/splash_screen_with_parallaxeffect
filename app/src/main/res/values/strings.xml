@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Splash Screen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title1"
+        >First Title of Intro</string>
+    <string name="title2"
+        >Second Title of Intro</string>
+    <string name="title3"
+    >Third Title of Intro</string>
+    <string name="title4"
+    >Fourth Title of Intro</string>
+    <string name="disc1">First Discription</string>
+    <string name="disc2">Second Discription</string>
+    <string name="disc3">Third Discription</string>
+    <string name="disc4">Fourth Discription</string>
+
+</resources>

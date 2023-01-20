@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".IntroActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/splashlogo"
+       android:layout_alignParentTop="true"
+        ></ImageView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/introviewpager"
+        android:layout_width="match_parent"
+        android:layout_below="@id/imageView"
+        android:layout_height="match_parent"
+        android:layout_above="@id/imageView1"
+        ></androidx.viewpager.widget.ViewPager>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+     android:layout_alignParentBottom="true"
+        android:src="@drawable/splashlogo"
+        android:layout_marginBottom="40dp"
+        ></ImageView>
+
+</RelativeLayout>
